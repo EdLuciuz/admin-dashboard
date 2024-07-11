@@ -10,12 +10,14 @@
 <body>
     <div class="container">
         <div class="sidebar">
-            <a href="#" class="logo">logo</a>
+            <a href="#" class="logo">
+                <i class="fa-solid fa-chart-line logo-svg"></i>
+                Dashboard</a>
 
             <ul class="sidebar-content">
                 <li class="sidebar-button">
                     <a href="#">
-                        <i class="fa-solid fa-house-chimney-user"></i>
+                        <i class="fa-solid fa-house-chimney-user sidebar-icon"></i>
                         <span>Home</span>
                     </a>
                 </li>
@@ -51,31 +53,52 @@
                 </li>
             </ul>
 
-            <div class="settings">
-                <a href="#">
-                    <i class="fa-solid fa-gear sidebar-icon"></i>
-                    <span>settings</span>
-                </a>
+            <div class="bottom-sidebar">
+                <ul class="sidebar-content2">
+                    <li>
+                        <a href="#">
+                            <i class="fa-solid fa-gear sidebar-icon"></i>
+                            <span>Settings</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-regular fa-circle-question sidebar-icon"></i>
+                            <span>Support</span>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
 
-        <nav class="nav-bar">
-            <div class="search-bar">
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <input type="text" name="" id="">
+        <div class="header">
+            <nav class="nav-bar">
+                <div class="search-bar">
+                    <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                    <input type="text" name="" id="search-bar">
+                </div>
+                <div class="profile-side">
+                    <i class="fa-regular fa-bell bell-icon"></i>
+                    <img src="assets/profile.svg" alt="" class="user-account">
+                </div>
+            </nav>
+            <div class="header-bottom">
+                <img src="assets/profile.svg" alt="" class="user-account-2">
+                <div class="welcome-text">
+                    <span class="hi-there">Hi there,</span>
+                    <h1 class="name">Mr. Ed</h1>
+                </div>
+                <div class="header-buttons">
+                    <button class="new header-btn">New</button>
+                    <button class="upload header-btn">Upload</button>
+                    <button class="share header-btn">Share</button>
+                </div>
             </div>
-            <div class="language">
-                <p class="lang">EN</p>
-                <i class="fa-solid fa-chevron-down"></i>
-            </div>
-
-            <i class="fa-regular fa-bell"></i>
-            <img src="assets/profile.svg" alt="" class="user-account">
-        </nav>
+        </div>
 
         <div class="main-page">
             <div class="left">
-                <h1 class="projects">Projects</h1>
+                <h1 class="projects title">Projects</h1>
                 <div class="card">
                     <h1 class="card-title">Lorem</h1>
                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
@@ -88,11 +111,11 @@
             </div>
             <div class="right">
                 <div class="announcement-section">
-                    <h1 class="announcement">Announcement</h1>
+                    <h1 class="announcement title">Announcement</h1>
                     <div class="announcement-box"></div>
                 </div>
                 <div class="trending-section">
-                    <h1 class="trending">Trending</h1>
+                    <h1 class="trending title">Trending</h1>
                     <div class="trending-box"></div>
                 </div>
             </div>
