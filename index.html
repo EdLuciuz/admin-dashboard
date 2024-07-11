@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Dashboard</title>
+    <title>Dashboard</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/331a42d0f2.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="assets/icon.svg">
 </head>
 <body>
     <div class="container">
@@ -75,15 +76,15 @@
             <nav class="nav-bar">
                 <div class="search-bar">
                     <i class="fa-solid fa-magnifying-glass search-icon"></i>
-                    <input type="text" name="" id="search-bar">
+                    <input type="text" name="" id="search-bar" class="search-input">
                 </div>
                 <div class="profile-side">
                     <i class="fa-regular fa-bell bell-icon"></i>
-                    <img src="assets/profile.svg" alt="" class="user-account">
+                    <img src="assets/profile-picture.svg" alt="" class="user-account">
                 </div>
             </nav>
             <div class="header-bottom">
-                <img src="assets/profile.svg" alt="" class="user-account-2">
+                <img src="assets/profile-picture.svg" alt="" class="user-account-2">
                 <div class="welcome-text">
                     <span class="hi-there">Hi there,</span>
                     <h1 class="name">Mr. Ed</h1>
@@ -99,24 +100,123 @@
         <div class="main-page">
             <div class="left">
                 <h1 class="projects title">Projects</h1>
-                <div class="card">
-                    <h1 class="card-title">Lorem</h1>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
-                    <div class="card-buttons">
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-bookmark"></i>
-                        <i class="fa-solid fa-share-nodes"></i>
+                <div class="card-section">
+                    <div class="card">
+                        <div class="card-content">
+                            <h1 class="card-title">To-Do List </h1>
+                            <p class="card-text">Manage tasks with add, edit, delete functionalities, and organize with categories or tags.</p>
+                            <div class="card-buttons">
+                                <i class="fa-regular fa-star card-btn"></i>
+                                <i class="fa-regular fa-bookmark card-btn"></i>
+                                <i class="fa-solid fa-share-nodes card-btn"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-content">
+                            <h1 class="card-title">Weather Dashboard</h1>
+                            <p class="card-text">Display real-time weather data using APIs, with forecasts, location-based updates, and interactive map features. Customizable units, historical data, and weather alerts enhance user experience.</p>
+                            <div class="card-buttons">
+                                <i class="fa-regular fa-star card-btn"></i>
+                                <i class="fa-regular fa-bookmark card-btn"></i>
+                                <i class="fa-solid fa-share-nodes card-btn"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-content">
+                            <h1 class="card-title">Recipe Finder</h1>
+                            <p class="card-text">Search and display recipes based on ingredients or keywords, with ratings, reviews, and cooking instructions.</p>
+                            <div class="card-buttons">
+                                <i class="fa-regular fa-star card-btn"></i>
+                                <i class="fa-regular fa-bookmark card-btn"></i>
+                                <i class="fa-solid fa-share-nodes card-btn"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-content">
+                            <h1 class="card-title">Portfolio Website</h1>
+                            <p class="card-text">Showcase skills, projects, and contact information creatively, with responsive design and interactive elements.</p>
+                            <div class="card-buttons">
+                                <i class="fa-regular fa-star card-btn"></i>
+                                <i class="fa-regular fa-bookmark card-btn"></i>
+                                <i class="fa-solid fa-share-nodes card-btn"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-content">
+                            <h1 class="card-title">Rock Paper Scissors</h1>
+                            <p class="card-text">Classic game with user input, computer opponent, and result display.</p>
+                            <div class="card-buttons">
+                                <i class="fa-regular fa-star card-btn"></i>
+                                <i class="fa-regular fa-bookmark card-btn"></i>
+                                <i class="fa-solid fa-share-nodes card-btn"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-content">
+                            <h1 class="card-title">Photo Gallery</h1>
+                            <p class="card-text">Display images with filters, search, responsive layout, slideshow options, user-friendly navigation, comments, and sharing features to curate and showcase photography collections effectively.</p>
+                            <div class="card-buttons">
+                                <i class="fa-regular fa-star card-btn"></i>
+                                <i class="fa-regular fa-bookmark card-btn"></i>
+                                <i class="fa-solid fa-share-nodes card-btn"></i>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="right">
                 <div class="announcement-section">
-                    <h1 class="announcement title">Announcement</h1>
-                    <div class="announcement-box"></div>
+                    <h1 class="announcement title">Announcements</h1>
+                    <div class="announcement-box">
+                        <h1 class="announcement-title">Major update coming</h1>
+                        <p class="announcement-text">We're thrilled to announce the upcoming update for our dashboard app! This release brings a host of exciting new features designed to enhance your productivity and user experience.
+                        </p>
+                        <p class="announcement-text">Get ready for enhanced data visualization tools that provide clearer insights at a glance.</p>
+                        <a href="#" class="read-more">Read more....</a>
+                        <hr>
+                        <h1 class="announcement-title">Something happened..</h1>
+                        <p class="announcement-text">Something happened today that changed everything. We woke up to find that something happened overnight, something we never expected. As we went about our day, we couldn't shake the feeling that something happened.
+                        </p>
+                        <a href="#" class="read-more">Read more....</a>
+                    </div>
                 </div>
                 <div class="trending-section">
                     <h1 class="trending title">Trending</h1>
-                    <div class="trending-box"></div>
+                    <div class="trending-box">
+                        <div class="trending-card">
+                            <img src="assets/user1.svg" alt="" class="user-trending">
+                            <div class="trending-card-right">
+                                <h1 class="username">@mrsdjade</h1>
+                                <p class="trending-text">Wealth is the recipe to happiness.</p>
+                            </div>
+                        </div>
+                        <div class="trending-card">
+                            <img src="assets/user2.svg" alt="" class="user-trending">
+                            <div class="trending-card-right">
+                                <h1 class="username">@mrdiamond</h1>
+                                <p class="trending-text">My heart is unyielding like the monolith.</p>
+                            </div>
+                        </div>
+                        <div class="trending-card">
+                            <img src="assets/user3.svg" alt="" class="user-trending">
+                            <div class="trending-card-right">
+                                <h1 class="username">@mraventurine</h1>
+                                <p class="trending-text">High stakes, high rewards.</p>
+                            </div>
+                        </div>
+                        <div class="trending-card">
+                            <img src="assets/user4.svg" alt="" class="user-trending">
+                            <div class="trending-card-right">
+                                <h1 class="username">@mrstopaz</h1>
+                                <p class="trending-text"> Nice to have in the portfolio.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
