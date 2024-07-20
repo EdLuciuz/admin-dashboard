@@ -1,3 +1,3 @@
-# admin-dashboard
+Dashboard 
 
-https://edluciuz.github.io/admin-dashboard/
+[Live Demo](https://edluciuz.github.io/admin-dashboard/)
